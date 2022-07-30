@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Health App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="background.jpg">
+    <center>
+        <div class="btn btn-info heading">
+            <h2>Health App</h2>
+            <p>Once you have entered your weight, press the calculate button to find what you should drink and eat every day.</p>
+        </div>
+        <br><br>
+        <div class="inputs">
+            <input type="text" id="weight" class="form-control input" placeholder="Enter your weight in pounds">
+            <br>
+            <input type="text" id="gender" class="form-control input" placeholder="Enter your birth gender (no caps female/male)">
+            <br>
+            <input type="text" id="age" class="form-control input" placeholder="Enter your age">
+        </div>
+        <br><br>
+        <button class="btn btn-success calculate" onclick="calculate()">Calculate</button>
+        <br><br>
+        <h4 id="water"></h4>
+        <h4 id="carbs"></h4>
+        <h4 id="fats"></h4>
+        <h4 id="calories"></h4>
+    </center>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>

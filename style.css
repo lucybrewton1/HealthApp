@@ -1,0 +1,28 @@
+body {
+    background-image: cover;
+}
+.heading {
+    width: 100%;
+    margin-top: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.heading h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.heading p {
+    font-size: 15px;
+}
+.input {
+    width: 500px;
+}
+.calculate {
+    font-size: 18px;
+}
+button {
+    font-family: 'Inter', sans-serif;
+}
+#water , #carbs , #fats , #calories {
+    font-family: 'Noto Sans', sans-serif;
+}
